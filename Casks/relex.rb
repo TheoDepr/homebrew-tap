@@ -2,11 +2,11 @@ cask "relex" do
     version "1.1.2"
     sha256 "13716157e81c5d7e040163bd8ad32170ce36760578f5456b402e074800f0e71c"
   
-    url "https://github.com/theodepr/relex/releases/download/v#{version}/Relex-#{version}.dmg",
-        verified: "github.com/theodepr/relex/"
-    name "Relex"
-    desc "Relex – a macOS app for relaxing automation"
-    homepage "https://github.com/theodepr/relex"
+  url "https://github.com/TheoDepr/Relex/releases/download/v#{version}/Relex-macOS.dmg",
+      verified: "github.com/TheoDepr/Relex/"
+  name "Relex"
+  desc "Relex – a macOS app for relaxing automation"
+  homepage "https://github.com/TheoDepr/Relex"
   
     depends_on macos: ">= :sequoia"
   
