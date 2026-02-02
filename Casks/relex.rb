@@ -1,6 +1,6 @@
 cask "relex" do
-    version "1.1.0"
-    sha256 "f4963335430715aaca8eb84fe28777806f998d1ab317d8cbebc78c65e81a0315"
+    version "1.1.2"
+    sha256 "13716157e81c5d7e040163bd8ad32170ce36760578f5456b402e074800f0e71c"
   
     url "https://github.com/theodepr/relex/releases/download/v#{version}/Relex-#{version}.dmg",
         verified: "github.com/theodepr/relex/"
